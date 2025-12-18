@@ -29,11 +29,26 @@ const Projects = () => {
               whileHover={{ y: -15 }}
               className="group relative bg-[#020617] rounded-xl overflow-hidden border border-slate-800 hover:border-[#38bdf8] transition-all duration-300"
             >
-              {/* Project Image Placeholder */}
-              <div className="h-48 bg-gradient-to-br from-[#38bdf8]/20 to-cyan-500/10 flex items-center justify-center overflow-hidden">
-                <div className="text-6xl opacity-50 group-hover:scale-110 transition-transform duration-300">
-                  💻
-                </div>
+              {/* Project Image */}
+              <div className="h-48 bg-gradient-to-br from-[#38bdf8]/20 to-cyan-500/10 flex items-center justify-center overflow-hidden relative">
+                {typeof project.image === 'string' && project.image.endsWith('.jpg') ? (
+                  // Placeholder for images that haven't been imported yet
+                  <div className="text-6xl opacity-50 group-hover:scale-110 transition-transform duration-300">
+                    💻
+                  </div>
+                ) : (
+                  // Display actual imported image
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    onError={(e) => {
+                      // Fallback if image fails to load
+                      e.target.style.display = 'none';
+                      e.target.parentElement.innerHTML = '<div class="text-6xl opacity-50">💻</div>';
+                    }}
+                  />
+                )}
               </div>
               
               <div className="p-6">

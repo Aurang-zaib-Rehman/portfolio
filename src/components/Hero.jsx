@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { HiArrowDown } from 'react-icons/hi';
+import Profile_img from "../assets/images/profile.png";
 
 const Hero = () => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
@@ -76,7 +77,7 @@ const Hero = () => {
               className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-[#38bdf8] shadow-2xl shadow-[#38bdf8]/50"
             >
               <img 
-                src="/profile.jpg" 
+                src= {Profile_img} 
                 alt="Aurang Zaib Rehman" 
                 className="w-full h-full object-cover"
                 onError={(e) => {

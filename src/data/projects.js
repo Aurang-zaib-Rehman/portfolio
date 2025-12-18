@@ -1,30 +1,37 @@
+import project1 from "../assets/images/hms.PNG";
+// import project2 from "../assets/projects/project2.jpg";
+// import project3 from "../assets/projects/project2.jpg";
+// import project4 from "../assets/projects/project2.jpg";
+// import project5 from "../assets/projects/project2.jpg";
+// import project6 from "../assets/projects/project2.jpg";
+
 export const projectsData = [
   {
     id: 1,
     title: "Hospital Management System (Admin)",
     description: "A full-featured and responsive hospital management dashboard with patient, doctor, department, profile management...",
     tech: ["React", "Tailwind CSS", "Framer-Motion", "Chart.js"],
-    image: "hms.PNG",
+    image: project1,  
     demoLink: "https://hm-sys.netlify.app",
     githubLink: "https://github.com/Aurang-zaib-Rehman/HMS-Admin-Dashboard"
   },
   {
     id: 2,
-    title: "Portfolio Dashboard",
-    description: "An interactive dashboard for managing portfolio projects with real-time analytics and data visualization.",
-    tech: ["React", "CSS", "Chart.js", "APIs"],
+    title: "Portfolio Website",
+    description: "A modern personal portfolio website showcasing my projects, skills, and experience. Built with a responsive design to highlight my work, and technical expertise as a web developer.",
+    tech: ["React", "Tailwind CSS", "Framer-Motion"],
     image: "project2.jpg",
     demoLink: "https://demo-link.com",
     githubLink: "https://github.com/zaib/project2"
   },
   {
     id: 3,
-    title: "Task Manager App",
-    description: "A productivity app with drag-and-drop functionality, task prioritization, and local storage persistence.",
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    title: "eLearning Plateform",
+    description: "A responsive multi-page eLearning website built with HTML, CSS, and JavaScript. Includes a homepage and additional pages for courses and contact. Designed to provide an interactive learning experience.",
+    tech: ["Html5", "CSS3", "JavaSript"],
     image: "project3.jpg",
     demoLink: "https://demo-link.com",
-    githubLink: "https://github.com/zaib/project3"
+    githubLink: "https://github.com/Aurang-zaib-Rehman/elearning-platform"
   },
   {
     id: 4,

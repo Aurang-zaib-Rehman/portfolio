@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 const AnimatedBackground = () => {
   // Memoize particles so they don't regenerate on every render
   const particles = useMemo(() => 
-    Array.from({ length: 200 }, (_, i) => ({
+    Array.from({ length: 250 }, (_, i) => ({
       id: i,
       size: Math.random() * 4 + 2,
       initialX: Math.random() * 100,
       initialY: Math.random() * 100,
-      duration: Math.random() * 10 + 10,
+      duration: Math.random() * 4 + 4,
       delay: Math.random() * 2,
       moveX: Math.random() * 100 - 50,
       moveY: Math.random() * 100 - 50,

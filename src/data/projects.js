@@ -1,9 +1,9 @@
 import project1 from "../assets/images/hms.PNG";
-// import project2 from "../assets/projects/project2.jpg";
-// import project3 from "../assets/projects/project2.jpg";
-// import project4 from "../assets/projects/project2.jpg";
-// import project5 from "../assets/projects/project2.jpg";
-// import project6 from "../assets/projects/project2.jpg";
+import project2 from "../assets/images/eLearning.PNG";
+// import project3 from "../assets/images/eLearning.NG";
+// import project4 from "../assets/images/project2.jpg";
+// import project5 from "../assets/images/project2.jpg";
+// import project6 from "../assets/images/project2.jpg";
 
 export const projectsData = [
   {
@@ -17,20 +17,20 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Portfolio Website",
-    description: "A modern personal portfolio website showcasing my projects, skills, and experience. Built with a responsive design to highlight my work, and technical expertise as a web developer.",
-    tech: ["React", "Tailwind CSS", "Framer-Motion"],
-    image: "project2.jpg",
-    demoLink: "https://demo-link.com",
-    githubLink: "https://github.com/zaib/project2"
-  },
-  {
-    id: 3,
     title: "eLearning Plateform",
     description: "A responsive multi-page eLearning website built with HTML, CSS, and JavaScript. Includes a homepage and additional pages for courses and contact. Designed to provide an interactive learning experience.",
     tech: ["Html5", "CSS3", "JavaSript"],
-    image: "project3.jpg",
-    demoLink: "https://demo-link.com",
+    image: project2,
+    demoLink: "https://elearningplateform1.netlify.app",
+    githubLink: "https://github.com/Aurang-zaib-Rehman/elearning-platform"
+  },
+  {
+    id: 3,
+    title: "",
+    description: "A responsive multi-page eLearning website built with HTML, CSS, and JavaScript. Includes a homepage and additional pages for courses and contact. Designed to provide an interactive learning experience.",
+    tech: ["Html5", "CSS3", "JavaSript"],
+    // image: project3,
+    demoLink: "https://elearningplateform1.netlify.app",
     githubLink: "https://github.com/Aurang-zaib-Rehman/elearning-platform"
   },
   {

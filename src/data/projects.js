@@ -1,9 +1,9 @@
 import project1 from "../assets/images/hms.PNG";
 import project2 from "../assets/images/eLearning.PNG";
-// import project3 from "../assets/images/eLearning.NG";
-// import project4 from "../assets/images/project2.jpg";
-// import project5 from "../assets/images/project2.jpg";
-// import project6 from "../assets/images/project2.jpg";
+import project3 from "../assets/images/eCommerce.PNG";
+import project4 from "../assets/images/Construction.PNG";
+import project5 from "../assets/images/Medical.PNG";
+// import project6 from "../assets/images/project2.PNG";
 
 export const projectsData = [
   {
@@ -26,30 +26,30 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "",
-    description: "A responsive multi-page eLearning website built with HTML, CSS, and JavaScript. Includes a homepage and additional pages for courses and contact. Designed to provide an interactive learning experience.",
+    title: "eCommerce website",
+    description: "A responsive multi-page eCommerce website built using HTML, CSS, and JavaScript. Features a product showcase, categories, testimonials, and a clean UI for an engaging online shopping experience.",
     tech: ["Html5", "CSS3", "JavaSript"],
-    // image: project3,
-    demoLink: "https://elearningplateform1.netlify.app",
-    githubLink: "https://github.com/Aurang-zaib-Rehman/elearning-platform"
+    image: project3,
+    demoLink: "https://sastashop1.netlify.app",
+    githubLink: "https://github.com/Aurang-zaib-Rehman/Advance-E-commerce-Store"
   },
   {
     id: 4,
-    title: "Weather Application",
-    description: "Real-time weather app with location-based forecasts, beautiful UI, and multiple city support.",
-    tech: ["React", "Weather API", "CSS"],
-    image: "project4.jpg",
-    demoLink: "https://demo-link.com",
-    githubLink: "https://github.com/zaib/project4"
+    title: "Construction Company Website",
+    description: "A responsive construction company portfolio website built with HTML, CSS and Bootstrap, showcasing services, completed projects, team members, and client contact information.",
+    tech: ["Html5", "CSS3", "Bootstrap"],
+    image: project4,
+    demoLink: "https://zaelixconstruction.netlify.app",
+    githubLink: "https://github.com/Aurang-zaib-Rehman/construction-company-website"
   },
   {
     id: 5,
-    title: "Blog Platform",
-    description: "A modern blogging platform with markdown support, categories, tags, and responsive layouts.",
-    tech: ["React", "Tailwind CSS", "JavaScript"],
-    image: "project5.jpg",
-    demoLink: "https://demo-link.com",
-    githubLink: "https://github.com/zaib/project5"
+    title: "Medical Clinic Website",
+    description: "A responsive clinic website built with HTML, CSS, and JavaScript, featuring sections for services, doctors, appointment booking, and contact. Designed to provide a clean and user-friendly healthcare experience.",
+    tech: ["Html5", "CSS3", "JavaScript"],
+    image: project5,
+    demoLink: "https://zaelixhealth.netlify.app",
+    githubLink: "https://github.com/Aurang-zaib-Rehman/clinic-website"
   },
   {
     id: 6,

@@ -62,18 +62,10 @@ export const projectsData = [
   }
 ];
 
-export const skillsData = [
-  { name: "React.js", level: 90, icon: "⚛️" },
-  { name: "JavaScript", level: 85, icon: "🟨" },
-  { name: "Tailwind CSS", level: 95, icon: "🎨" },
-  { name: "HTML", level: 95, icon: "📄" },
-  { name: "CSS", level: 90, icon: "🎭" },
-  { name: "Git & GitHub", level: 80, icon: "🔧" }
-];
 
 export const socialLinks = {
-  github: "https://github.com/zaib",
-  linkedin: "https://linkedin.com/in/zaib",
-  email: "zaib@example.com",
+  github: "https://github.com/Aurang-zaib-Rehman",
+  linkedin: "https://www.linkedin.com/in/aurang-zaib-rehman",
+  email: "aurangzaibrehman01@gmail.com",
   twitter: "https://twitter.com/zaib"
 };

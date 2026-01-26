@@ -343,8 +343,8 @@ const Hero = () => {
 
   // Social media links - UPDATE THESE WITH YOUR ACTUAL LINKS
   const socialLinks = [
-    { name: 'GitHub', icon: FaGithub, url: 'https://github.com/yourusername', color: '#333' },
-    { name: 'LinkedIn', icon: FaLinkedin, url: 'https://linkedin.com/in/yourusername', color: '#0077B5' },
+    { name: 'GitHub', icon: FaGithub, url: 'https://github.com/Aurang-zaib-Rehman', color: '#333' },
+    { name: 'LinkedIn', icon: FaLinkedin, url: 'https://www.linkedin.com/in/aurang-zaib-rehman', color: '#0077B5' },
     { name: 'Instagram', icon: FaInstagram, url: 'https://instagram.com/yourusername', color: '#E4405F' },
     { name: 'Facebook', icon: FaFacebookF, url: 'https://facebook.com/yourusername', color: '#1877F2' },
     { name: 'TikTok', icon: FaTiktok, url: 'https://tiktok.com/@yourusername', color: '#000' }

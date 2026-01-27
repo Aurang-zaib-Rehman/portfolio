@@ -3,7 +3,7 @@ import project2 from "../assets/images/eLearning.PNG";
 import project3 from "../assets/images/eCommerce.PNG";
 import project4 from "../assets/images/Construction.PNG";
 import project5 from "../assets/images/Medical.PNG";
-// import project6 from "../assets/images/project2.PNG";
+import project6 from "../assets/images/restaurant.PNG";
 
 export const projectsData = [
   {
@@ -53,12 +53,12 @@ export const projectsData = [
   },
   {
     id: 6,
-    title: "Landing Page Builder",
-    description: "An intuitive tool for creating stunning landing pages with pre-built components and templates.",
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
-    image: "project6.jpg",
-    demoLink: "https://demo-link.com",
-    githubLink: "https://github.com/zaib/project6"
+    title: "Restaurant Website",
+    description: "A Restaurant website built with HTML and CSS, featuring menu listings, food gallery, customer reviews, and an order form. Designed to provide a clean and engaging food browsing experience.",
+    tech: ["Html5", "CSS3"],
+    image: project6,
+    demoLink: "https://goodfooda1.netlify.app/",
+    githubLink: "https://github.com/Aurang-zaib-Rehman/restaurant-website"
   }
 ];
 

@@ -24,11 +24,11 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: 'GitHub', icon: FaGithub, url: 'https://github.com/yourusername' },
-    { name: 'LinkedIn', icon: FaLinkedin, url: 'https://linkedin.com/in/yourusername' },
-    { name: 'Instagram', icon: FaInstagram, url: 'https://instagram.com/yourusername' },
-    { name: 'Facebook', icon: FaFacebookF, url: 'https://facebook.com/yourusername' },
-    { name: 'TikTok', icon: FaTiktok, url: 'https://tiktok.com/@yourusername' }
+    { name: 'GitHub', icon: FaGithub, url: 'https://github.com/Aurang-zaib-Rehman' },
+    { name: 'LinkedIn', icon: FaLinkedin, url: 'https://www.linkedin.com/in/aurang-zaib-rehman' },
+    { name: 'Instagram', icon: FaInstagram, url: 'https://www.instagram.com/zaibxcode?igsh=MXpiNHNid3psb2Q2' },
+    { name: 'Facebook', icon: FaFacebookF, url: 'https://www.facebook.com/share/1YtoVMTKyx/' },
+    { name: 'TikTok', icon: FaTiktok, url: 'https://tiktok.com/@zaibxcode' }
   ];
 
   const contactInfo = {

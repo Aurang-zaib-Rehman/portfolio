@@ -345,9 +345,9 @@ const Hero = () => {
   const socialLinks = [
     { name: 'GitHub', icon: FaGithub, url: 'https://github.com/Aurang-zaib-Rehman', color: '#333' },
     { name: 'LinkedIn', icon: FaLinkedin, url: 'https://www.linkedin.com/in/aurang-zaib-rehman', color: '#0077B5' },
-    { name: 'Instagram', icon: FaInstagram, url: 'https://instagram.com/yourusername', color: '#E4405F' },
-    { name: 'Facebook', icon: FaFacebookF, url: 'https://facebook.com/yourusername', color: '#1877F2' },
-    { name: 'TikTok', icon: FaTiktok, url: 'https://tiktok.com/@yourusername', color: '#000' }
+    { name: 'Instagram', icon: FaInstagram, url: 'https://www.instagram.com/zaibxcode?igsh=MXpiNHNid3psb2Q2', color: '#E4405F' },
+    { name: 'Facebook', icon: FaFacebookF, url: 'https://www.facebook.com/share/1YtoVMTKyx/', color: '#1877F2' },
+    { name: 'TikTok', icon: FaTiktok, url: 'https://tiktok.com/@zaibxcode', color: '#000' }
   ];
 
   useEffect(() => {

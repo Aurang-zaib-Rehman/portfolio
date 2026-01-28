@@ -14,7 +14,7 @@ import {
   SiRedux,
   SiC,
   SiCplusplus,
-  SiVercel
+  SiCanva
 } from 'react-icons/si';
 
 const Skills = () => {
@@ -35,7 +35,7 @@ const Skills = () => {
       { name: 'C++', icon: <SiCplusplus />, level: 85 },
       { name: 'Python', icon: <FaPython />, level: 80 },
       { name: 'Git', icon: <FaGitAlt />, level: 85 },
-      { name: 'Vercel', icon: <SiVercel />, level: 80 }
+      { name: 'Canva', icon: <SiCanva />, level: 80 }
     ],
     frontend: [
       { name: 'HTML5', icon: <FaHtml5 />, level: 95 },
@@ -53,7 +53,7 @@ const Skills = () => {
     ],
     other: [
       { name: 'Git', icon: <FaGitAlt />, level: 85 },
-      { name: 'Vercel', icon: <SiVercel />, level: 80 }
+      { name: 'Canva', icon: <SiCanva />, level: 80 }
     ]
   };
 

@@ -1,4 +1,4 @@
-/* Add this to your index.css or App.css for ultra-smooth scrolling */
+Add this to your index.css or App.css for ultra-smooth scrolling
 
 /* Smooth scroll for the entire app */
 html {
@@ -70,3 +70,4 @@ section {
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
 }
+

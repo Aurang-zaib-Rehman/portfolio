@@ -14,7 +14,6 @@ const About = () => {
         if (entries[0].isIntersecting && !hasAnimated) {
           setHasAnimated(true);
           
-          // Animate years counter
           let yearsStart = 0;
           const yearsEnd = 1;
           const yearsDuration = 1000;
@@ -30,7 +29,6 @@ const About = () => {
             }
           }, 16);
 
-          // Animate projects counter
           let projectsStart = 0;
           const projectsEnd = 10;
           const projectsDuration = 1500;
@@ -108,16 +106,14 @@ const About = () => {
             className="space-y-6"
           >
             <h3 className="text-3xl font-bold text-white">
-              Hello! I'm Zaib, a Web Developer
+              Hello! I'm Aurang Zaib Rehman, a Frontend Web Developer
             </h3>
             
             <p className="text-gray-400 text-lg leading-relaxed">
-              I'm a third-year Computer Science student at the University of Engineering and Technology (UET) Mardan, with a deep passion for software engineering. I love building innovative solutions and exploring the intersection of technology and human potential.
-            </p>
+              I'm a third-year Computer Science student at the University of Engineering and Technology (UET) Mardan with a strong passion for software engineering and modern web development. I building innovative, user-focused applications and turning ideas into practical digital solutions. </p>
             
             <p className="text-gray-400 text-lg leading-relaxed">
-              I'm currently focused on developing responsive and interactive websites using modern web technologies such as HTML, CSS, JavaScript, and React. I'm passionate about creating clean, intuitive, and user-friendly interfaces that deliver seamless and engaging experiences across all devices. With a strong eye for detail and a commitment to continuous learning, I strive to combine creativity with efficient, scalable code to build impactful digital solutions.
-            </p>
+              Im constantly exploring how technology can enhance human potential and improve real-world experiences. I’m always eager to learn, experiment, and contribute to meaningful software projects.            </p>
 
             <div ref={statsRef} className="flex gap-4 pt-4">
               <motion.div

@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
 
 const AnimatedBackground = () => {
-  // Memoize particles so they don't regenerate on every render
+
   const particles = useMemo(() => 
     Array.from({ length: 250 }, (_, i) => ({
       id: i,

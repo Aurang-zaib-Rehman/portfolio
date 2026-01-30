@@ -21,7 +21,6 @@ const Skills = () => {
   const [hoveredSkill, setHoveredSkill] = useState(null);
   const [activeCategory, setActiveCategory] = useState('all');
 
-  // Categorized skills data
   const skillsCategories = {
     all: [
       { name: 'HTML5', icon: <FaHtml5 />, level: 95 },
@@ -91,7 +90,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-24 bg-[#0f172a] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        {/* Header with underline style */}
+        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -191,7 +190,7 @@ const Skills = () => {
           </div>
         </motion.div>
 
-        {/* Additional Skills Section - Clean UI */}
+        {/* Additional Skills Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

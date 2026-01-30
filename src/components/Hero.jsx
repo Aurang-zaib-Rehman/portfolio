@@ -17,7 +17,6 @@ const Hero = () => {
     { line1: "Experience", line2: "1+ Years" }
   ];
 
-  // Social media links - UPDATE THESE WITH YOUR ACTUAL LINKS
   const socialLinks = [
     { name: 'GitHub', icon: FaGithub, url: 'https://github.com/Aurang-zaib-Rehman', color: '#333' },
     { name: 'LinkedIn', icon: FaLinkedin, url: 'https://www.linkedin.com/in/aurang-zaib-rehman', color: '#0077B5' },
@@ -34,7 +33,6 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Track if user is in hero section
   useEffect(() => {
     const handleScroll = () => {
       const heroSection = document.getElementById('hero');
@@ -49,12 +47,11 @@ const Hero = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Split text into characters for animation
+  // Text animation characterize
   const currentText = textLines[currentTextIndex];
   const line1Chars = currentText.line1.split('');
   const line2Chars = currentText.line2.split('');
 
-  // Animation variants for character-by-character animation
   const charVariants = {
     hidden: { 
       opacity: 0, 
@@ -80,16 +77,16 @@ const Hero = () => {
     })
   };
 
-  // Social button animations - FASTER with minimal delay
+  // Social button animations 
   const socialButtonVariants = {
     hidden: { scale: 0, opacity: 0 },
     visible: (i) => ({
       scale: 1,
       opacity: 1,
       transition: {
-        delay: i * 0.03, // Changed from 0.1 to 0.03 for much faster appearance
+        delay: i * 0.03, 
         type: "spring",
-        stiffness: 400, // Increased from 260 for snappier animation
+        stiffness: 400, 
         damping: 25
       }
     }),
@@ -100,7 +97,6 @@ const Hero = () => {
     }
   };
 
-  // Handle social link click - instant navigation
   const handleSocialClick = (url) => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
@@ -121,11 +117,11 @@ const Hero = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="relative mb-8 mt-16 md:mt-20"
           >
-            {/* Outer glow layers */}
+            {/* glow  */}
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 blur-3xl opacity-60 animate-pulse"></div>
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#38bdf8] to-white blur-2xl opacity-40"></div>
             
-            {/* Profile image container */}
+            {/* image*/}
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-[#38bdf8] shadow-2xl shadow-[#38bdf8]/50"
@@ -142,14 +138,14 @@ const Hero = () => {
             </motion.div>
           </motion.div>
 
-          {/* Animated Text Lines with Character-by-Character Animation - REDUCED SIZE */}
-          <div className="min-h-[140px] md:min-h-[160px] flex items-center justify-center">
+          {/* Animated Text SIZE */}
+          <div className="min-h-[130px] md:min-h-[160px] flex items-center justify-center">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentTextIndex}
                 className="text-center"
               >
-                {/* Line 1 - Character by Character - SMALLER */}
+                {/* Line 1 */}
                 <div className="text-xl md:text-2xl text-[#38bdf8] font-semibold mb-1 md:mb-2 flex justify-center">
                   {line1Chars.map((char, i) => (
                     <motion.span
@@ -216,10 +212,10 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* Floating Social Media Button - Only visible in hero section */}
+      {/* Social Button visiblity */}
       {isInHeroSection && (
         <div className="fixed left-4 md:left-8 bottom-20 md:bottom-8 z-50">
-          {/* Social Icons */}
+
           <AnimatePresence>
             {showSocial && (
               <motion.div 
@@ -290,7 +286,7 @@ const Hero = () => {
         </div>
       )}
 
-      {/* Scroll Indicator with React Icon - Hidden on mobile */}
+      {/* Scroll Indicator Hidden on mobile */}
       <motion.div
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}

@@ -1,30 +1,23 @@
-Add this to your index.css or App.css for ultra-smooth scrolling
-
-/* Smooth scroll for the entire app */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px; /* Offset for fixed navbar */
 }
 
-/* Enhanced smooth scrolling with custom easing */
 * {
   scroll-behavior: smooth;
 }
 
-/* Remove any scroll jank */
 body {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch; /* iOS smooth scrolling */
 }
 
-/* Optimize scrolling performance */
 section {
   will-change: transform;
   transform: translateZ(0);
   backface-visibility: hidden;
 }
 
-/* Custom scrollbar styling (optional but recommended) */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -44,13 +37,11 @@ section {
   background: linear-gradient(180deg, #0ea5e9, #38bdf8);
 }
 
-/* Firefox scrollbar */
 * {
   scrollbar-width: thin;
   scrollbar-color: #38bdf8 #0f172a;
 }
 
-/* Reduce motion for users who prefer it (accessibility) */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -65,7 +56,6 @@ section {
   }
 }
 
-/* Smooth transition for section visibility */
 section {
   opacity: 1;
   transition: opacity 0.3s ease-in-out;

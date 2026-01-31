@@ -139,11 +139,11 @@ const Hero = () => {
           </motion.div>
 
           {/* Animated Text SIZE */}
-          <div className="min-h-[130px] md:min-h-[160px] flex items-center justify-center">
+          <div className="min-h-[135px] md:min-h-[165px] flex items-center justify-center">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentTextIndex}
-                className="text-center"
+                className="text-center overflow-visible"
               >
                 {/* Line 1 */}
                 <div className="text-xl md:text-2xl text-[#38bdf8] font-semibold mb-1 md:mb-2 flex justify-center">
@@ -164,7 +164,7 @@ const Hero = () => {
                 </div>
                 
                 {/* Line 2 - Character by Character - SMALLER */}
-                <div className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent flex justify-center">
+                <div className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-white leading-[1.3] via-blue-100 to-purple-200 bg-clip-text text-transparent flex justify-center">
                   {line2Chars.map((char, i) => (
                     <motion.span
                       key={`line2-${i}`}
@@ -188,7 +188,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
-            className="flex gap-6 justify-center flex-wrap mt-8 mb-20 md:mb-24"
+            className="flex gap-5 justify-center flex-wrap mt-8  mb-20 md:mb-24"
           >
             <motion.a
               href="#projects"

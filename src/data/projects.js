@@ -4,6 +4,7 @@ import project3 from "../assets/images/eCommerce.PNG";
 import project4 from "../assets/images/Construction.PNG";
 import project5 from "../assets/images/Medical.PNG";
 import project6 from "../assets/images/restaurant.PNG";
+import project7 from "../assets/images/TodoApp.PNG";
 
 export const projectsData = [
   {
@@ -59,6 +60,15 @@ export const projectsData = [
     image: project6,
     demoLink: "https://goodfooda1.netlify.app/",
     githubLink: "https://github.com/Aurang-zaib-Rehman/restaurant-website"
+  },
+  {
+    id: 7,
+    title: "TodoApp",
+    description: "A Todo application built with HTML, CSS, and JavaScript that allows users to add and delete daily tasks. The app provides a clean and interactive interface to help users organize their work and improve productivity.",
+    tech: ["Html5", "CSS3", "JavaScript"],
+    image: project7,
+    demoLink: "https://taskitodoapp.netlify.app/",
+    githubLink: "https://github.com/Aurang-zaib-Rehman/Todo_App"
   }
 ];
 

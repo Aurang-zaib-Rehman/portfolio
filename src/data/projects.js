@@ -77,5 +77,4 @@ export const socialLinks = {
   github: "https://github.com/Aurang-zaib-Rehman",
   linkedin: "https://www.linkedin.com/in/aurang-zaib-rehman",
   email: "aurangzaibrehman01@gmail.com",
-  twitter: "https://twitter.com/zaib"
 };

@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin, FaInstagram, FaFacebookF, FaTiktok } from 'react-
 import { IoClose } from 'react-icons/io5';
 import { HiShare } from 'react-icons/hi2';
 import Profile_img from "../assets/images/profile.png";
+import CV from "../assets/images/cv.pdf";
 
 const Hero = () => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
@@ -200,7 +201,7 @@ const Hero = () => {
             </motion.a>
             
             <motion.a
-              href="/assets/cv.pdf"
+              href={CV}
               download="AurangZaibRehman_CV.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
